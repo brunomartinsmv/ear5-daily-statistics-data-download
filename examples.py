@@ -110,7 +110,7 @@ def example_evapotranspiration_cuiaba():
     
     # Cuiaba region bounding box: [North, West, South, East]
     # Covers Cuiaba and surrounding region (~2 degrees buffer)
-    # Cuiaba center: 15.6°S (or -15.6°N), 56.1°W (or -56.1°E)
+    # Cuiaba center: 15.6°S (or latitude -15.6), 56.1°W (or longitude -56.1)
     cuiaba_area = [-13.6, -58.1, -17.6, -54.1]
     
     print("Region: Cuiaba, Mato Grosso, Brazil")
