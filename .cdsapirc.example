@@ -1,0 +1,15 @@
+# Example CDS API configuration file
+# 
+# Copy this file to ~/.cdsapirc and add your credentials
+# 
+# To get your credentials:
+# 1. Register at https://cds.climate.copernicus.eu/
+# 2. Login and go to https://cds.climate.copernicus.eu/how-to-api
+# 3. Copy your UID and API key from that page
+
+url: https://cds.climate.copernicus.eu/api
+key: UID:API-KEY
+
+# Replace UID with your user ID number
+# Replace API-KEY with your actual API key
+# Example: key: 12345:abcd1234-ab12-cd34-ef56-1234567890ab
