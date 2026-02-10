@@ -33,8 +33,11 @@ To calculate reference evapotranspiration (ET₀) using standard methods like Pe
 ### 2. Radiation Variables
 - **`surface_net_solar_radiation`**: Net solar (shortwave) radiation
   - Primary energy source for evapotranspiration
-  - Determines available energy for ET process
-  - Key input for energy balance methods
+  - Shortwave component of net radiation (Rn) in the FAO-56 Penman–Monteith equation
+- **`surface_net_thermal_radiation`**: Net thermal (longwave) radiation
+  - Longwave component of net radiation (Rn) in the FAO-56 Penman–Monteith equation
+- **`net_radiation (Rn)`**: Computed as `surface_net_solar_radiation + surface_net_thermal_radiation`
+  - Total net radiation (shortwave + longwave); key input for energy balance methods such as FAO-56 Penman–Monteith
 
 ### 3. Wind Variables
 - **`10m_u_component_of_wind`**: East-west wind component
