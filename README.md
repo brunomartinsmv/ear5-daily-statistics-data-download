@@ -129,6 +129,18 @@ python download_era5_daily.py \
     --end-year 1945
 ```
 
+#### Example 6: Download variables for evapotranspiration analysis (Cuiaba, Brazil)
+```bash
+python download_era5_daily.py \
+    --variables 2m_temperature 2m_dewpoint_temperature 10m_u_component_of_wind 10m_v_component_of_wind surface_net_solar_radiation surface_pressure total_precipitation total_evaporation \
+    --start-year 2020 \
+    --end-year 2023 \
+    --area -13.6 -58.1 -17.6 -54.1 \
+    --output era5_evapotranspiration_cuiaba_2020_2023.nc
+```
+
+This downloads all variables needed for evapotranspiration analysis using methods like Penman-Monteith or FAO-56.
+
 ### Using the Python API
 
 You can also use the download function directly in your Python scripts:
@@ -162,6 +174,11 @@ Common variables include:
 
 For a complete list of available variables, visit:
 https://cds.climate.copernicus.eu/datasets/derived-era5-single-levels-daily-statistics
+
+### Evapotranspiration Analysis
+
+For a detailed guide on downloading and analyzing evapotranspiration data, including variable descriptions and calculation methods, see:
+- **[EVAPOTRANSPIRATION_GUIDE.md](EVAPOTRANSPIRATION_GUIDE.md)** - Comprehensive guide for ET analysis with Cuiaba example
 
 ## Output Format
 

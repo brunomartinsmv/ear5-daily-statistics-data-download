@@ -84,6 +84,64 @@ def example_historical_data():
     )
 
 
+def example_evapotranspiration_cuiaba():
+    """
+    Download all variables necessary for evapotranspiration analysis of Cuiaba, Brazil.
+    
+    Cuiaba is the capital of Mato Grosso state in Brazil, located in the tropics.
+    Coordinates: approximately 15.6°S, 56.1°W
+    
+    This example downloads variables needed for calculating evapotranspiration using
+    methods such as Penman-Monteith or FAO-56:
+    
+    Variables downloaded:
+    - 2m_temperature: Air temperature (drives evaporative demand)
+    - 2m_dewpoint_temperature: For vapor pressure deficit calculation
+    - 10m_u_component_of_wind: East-west wind component
+    - 10m_v_component_of_wind: North-south wind component (for wind speed calculation)
+    - surface_net_solar_radiation: Net solar radiation (primary energy source)
+    - surface_pressure: Atmospheric pressure (for psychrometric calculations)
+    - total_precipitation: Precipitation (water balance component)
+    - total_evaporation: Direct evaporation output from ERA5
+    
+    The bounding box covers Cuiaba and surrounding region in Mato Grosso.
+    """
+    print("\nExample 6: Downloading evapotranspiration variables for Cuiaba, Brazil\n")
+    
+    # Cuiaba region bounding box: [North, West, South, East]
+    # Covers Cuiaba and surrounding region (~2 degrees buffer)
+    # Cuiaba center: 15.6°S (or latitude -15.6), 56.1°W (or longitude -56.1)
+    cuiaba_area = [-13.6, -58.1, -17.6, -54.1]
+    
+    print("Region: Cuiaba, Mato Grosso, Brazil")
+    print(f"Bounding box: {cuiaba_area} (N, W, S, E)")
+    print("Variables: Temperature, humidity, wind, radiation, precipitation, evaporation")
+    print("\nThese variables can be used to:")
+    print("  - Calculate reference evapotranspiration (ET0) using Penman-Monteith")
+    print("  - Analyze water balance (P - ET)")
+    print("  - Study agricultural water requirements")
+    print("  - Assess drought conditions")
+    print("  - Validate crop water use models\n")
+    
+    download_era5_daily_stats(
+        variables=[
+            '2m_temperature',
+            '2m_dewpoint_temperature',
+            '10m_u_component_of_wind',
+            '10m_v_component_of_wind',
+            'surface_net_solar_radiation',
+            'surface_pressure',
+            'total_precipitation',
+            'total_evaporation'
+        ],
+        year_start=2020,
+        year_end=2023,
+        area=cuiaba_area,
+        daily_statistic='daily_mean',
+        output_file='era5_evapotranspiration_cuiaba_2020_2023.nc'
+    )
+
+
 def main():
     """
     Main function - uncomment the example you want to run.
@@ -109,6 +167,7 @@ def main():
     # example_summer_months_max_temp()
     # example_regional_data()
     # example_historical_data()
+    # example_evapotranspiration_cuiaba()
     
     print("\nUncomment one of the examples in the script to run it.")
 
