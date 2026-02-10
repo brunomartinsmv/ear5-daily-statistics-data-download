@@ -175,10 +175,23 @@ Common variables include:
 For a complete list of available variables, visit:
 https://cds.climate.copernicus.eu/datasets/derived-era5-single-levels-daily-statistics
 
+### Variable Documentation
+
+For detailed scientific documentation on each ERA5 variable, including physical descriptions, applications, units, and references, see:
+- **[docs/variables_documentation/](docs/variables_documentation/)** - Comprehensive PhD-level documentation for all variables
+
+Each variable is documented with:
+- Scientific description and physical context
+- Units and typical value ranges
+- Applications in climate research
+- Mathematical relationships and equations
+- Quality considerations and limitations
+- Key scientific references
+
 ### Evapotranspiration Analysis
 
 For a detailed guide on downloading and analyzing evapotranspiration data, including variable descriptions and calculation methods, see:
-- **[EVAPOTRANSPIRATION_GUIDE.md](EVAPOTRANSPIRATION_GUIDE.md)** - Comprehensive guide for ET analysis with Cuiaba example
+- **[docs/EVAPOTRANSPIRATION_GUIDE.md](docs/EVAPOTRANSPIRATION_GUIDE.md)** - Comprehensive guide for ET analysis with Cuiaba example
 
 ## Output Format
 
@@ -238,6 +251,24 @@ temperature.isel(time=0).plot()
 ## License
 
 This repository contains scripts for downloading ERA5 data. The scripts themselves are provided as-is for use with the Copernicus Climate Data Store. Please refer to the [Copernicus License](https://cds.climate.copernicus.eu/disclaimer-privacy) for terms regarding the ERA5 data itself.
+
+## Repository Structure
+
+```
+.
+├── download_era5_daily.py         # Main download script with CLI
+├── examples.py                    # Example usage scripts
+├── requirements.txt               # Python dependencies
+├── .cdsapirc.example             # Example API configuration file
+├── docs/                         # Documentation
+│   ├── EVAPOTRANSPIRATION_GUIDE.md    # Guide for ET analysis
+│   └── variables_documentation/       # Detailed variable docs
+│       ├── README.md                  # Variables documentation index
+│       ├── 2m_temperature.md          # Temperature documentation
+│       ├── total_precipitation.md     # Precipitation documentation
+│       └── ...                        # Other variable docs
+└── README.md                     # This file
+```
 
 ## Contributing
 
