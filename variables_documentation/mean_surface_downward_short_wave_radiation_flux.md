@@ -49,5 +49,5 @@ Identical to "surface_solar_radiation_downwards":
 Where SW_net is absorbed shortwave, albedo is surface reflectance
 
 ## References
-1. Hersbach, H., et al. (2020). *Q. J. R. Meteorol. Soc.*, 146(730), 1999-2049.
+1. Hersbach, H., et al. (2020). The ERA5 global reanalysis. *Quarterly Journal of the Royal Meteorological Society*, 146(730), 1999-2049.
 2. See "surface_solar_radiation_downwards.md" for comprehensive details

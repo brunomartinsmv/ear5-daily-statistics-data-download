@@ -59,5 +59,5 @@ Seasonal/diurnal patterns:
 - **Winter**: Larger net loss (cold atmosphere emits less)
 
 ## References
-1. Hersbach, H., et al. (2020). *Q. J. R. Meteorol. Soc.*, 146(730), 1999-2049.
+1. Hersbach, H., et al. (2020). The ERA5 global reanalysis. *Quarterly Journal of the Royal Meteorological Society*, 146(730), 1999-2049.
 2. Prata, A. J. (1996). A new long-wave formula for estimating downward clear-sky radiation. *Q. J. R. Meteorol. Soc.*, 122(533), 1127-1151.

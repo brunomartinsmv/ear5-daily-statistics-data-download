@@ -47,5 +47,5 @@ Total cloud cover ≤ Sum of individual layer cloud covers (due to overlap)
 - Availability: 1940 to present
 
 ## References
-1. Hersbach, H., et al. (2020). *Quarterly Journal of the Royal Meteorological Society*, 146(730), 1999-2049.
+1. Hersbach, H., et al. (2020). The ERA5 global reanalysis. *Quarterly Journal of the Royal Meteorological Society*, 146(730), 1999-2049.
 2. Stubenrauch, C. J., et al. (2013). Assessment of global cloud datasets. *Bulletin of the American Meteorological Society*, 94(7), 1031-1049.

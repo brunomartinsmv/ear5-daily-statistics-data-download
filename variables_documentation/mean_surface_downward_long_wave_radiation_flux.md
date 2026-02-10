@@ -65,5 +65,5 @@ Expected increases in LW↓ due to:
 Observed trends: +1-3 W m⁻² per decade in recent decades
 
 ## References
-1. Hersbach, H., et al. (2020). *Q. J. R. Meteorol. Soc.*, 146(730), 1999-2049.
+1. Hersbach, H., et al. (2020). The ERA5 global reanalysis. *Quarterly Journal of the Royal Meteorological Society*, 146(730), 1999-2049.
 2. Wild, M., et al. (2013). The global energy balance. *Clim. Dyn.*, 40(11-12), 3107-3134.

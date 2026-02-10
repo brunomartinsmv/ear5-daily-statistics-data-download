@@ -32,4 +32,4 @@ Mid-level clouds form where:
 - total_precipitation (often associated with altostratus/nimbostratus)
 
 ## References
-1. Hersbach, H., et al. (2020). *Q. J. R. Meteorol. Soc.*, 146(730), 1999-2049.
+1. Hersbach, H., et al. (2020). The ERA5 global reanalysis. *Quarterly Journal of the Royal Meteorological Society*, 146(730), 1999-2049.

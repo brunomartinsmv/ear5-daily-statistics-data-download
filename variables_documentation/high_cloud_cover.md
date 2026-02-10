@@ -40,5 +40,5 @@ High cloud response to warming is major uncertainty:
 - total_column_water_vapor (upper troposphere moisture)
 
 ## References
-1. Hersbach, H., et al. (2020). *Q. J. R. Meteorol. Soc.*, 146(730), 1999-2049.
+1. Hersbach, H., et al. (2020). The ERA5 global reanalysis. *Quarterly Journal of the Royal Meteorological Society*, 146(730), 1999-2049.
 2. Zelinka, M. D., et al. (2017). Causes of higher climate sensitivity in CMIP6 models. *Geophys. Res. Lett.*, 47(1), e2019GL085782.

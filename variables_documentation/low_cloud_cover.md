@@ -32,5 +32,5 @@ Low cloud feedback is a major source of uncertainty in climate projections. Subt
 - surface_net_solar_radiation (strongly affected by low clouds)
 
 ## References
-1. Hersbach, H., et al. (2020). *Q. J. R. Meteorol. Soc.*, 146(730), 1999-2049.
+1. Hersbach, H., et al. (2020). The ERA5 global reanalysis. *Quarterly Journal of the Royal Meteorological Society*, 146(730), 1999-2049.
 2. Wood, R. (2012). Stratocumulus clouds. *Mon. Weather Rev.*, 140(8), 2373-2423.
