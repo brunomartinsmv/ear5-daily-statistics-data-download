@@ -58,6 +58,13 @@ cd ear5-data-download
 pip install -r requirements.txt
 ```
 
+3. Verify your setup:
+```bash
+python check_setup.py
+```
+
+This will check that all requirements are met and you're ready to download data.
+
 ## Usage
 
 ### Basic Command-Line Usage
